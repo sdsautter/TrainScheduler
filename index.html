@@ -24,10 +24,10 @@
                 <div class="col-xs-12">
                     <div class="panel panel-primary">
                         <div class="panel-heading">
-                            <h3 class="panel-title">Current Employees</h3>
+                            <h3 class="panel-title">Current Train Schedule</h3>
                         </div>
                         <div class="panel-body">
-                            <table class="table" id="employee-inputs">
+                            <table class="table" id="train-inputs">
                                 <thead>
                                     <tr>
                                         <th>Train Name</th>
@@ -50,7 +50,7 @@
                             <h3 class="panel-title">Add Train</h3>
                         </div>
                         <div class="panel-body">
-                            <form id="employee-form">
+                            <form id="train-form">
                                 <div class="form-group">
                                     <label for="form-name">Train Name</label>
                                     <input type="text" class="form-control" id="form-name" placeholder="">
@@ -65,7 +65,7 @@
                                 </div>
                                 <div class="form-group">
                                     <label for="form-frequency">Frequency (min)</label>
-                                    <input type="number" class="form-control" id="form-frequency" placeholder="">
+                                    <input type="number" min="0" class="form-control" id="form-frequency" placeholder="">
                                 </div>
                                 <button type="submit" class="btn btn-default">Submit</button>
                             </form>
